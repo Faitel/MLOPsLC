@@ -1,0 +1,11 @@
+{
+    "path": "$MLOPSLC",
+    "load_package_once": true,
+    "version": "19.5",
+    "enable": true,
+    "env": [
+        {
+            "MLOPSLC": "H:/Github/MLOPsLC/"
+        }
+    ]
+}

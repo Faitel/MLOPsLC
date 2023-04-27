@@ -1,0 +1,11 @@
+{
+    "path": "$MLOPS_rembg",
+    "load_package_once": true,
+    "version": "19.5",
+    "enable": true,
+    "env": [
+        {
+            "U2NET_HOME": "$MLOPS_MODELS/rembg/"
+        }
+    ]
+}
