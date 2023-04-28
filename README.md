@@ -16,6 +16,8 @@
 - [CLIPseg Prompt Mask](#clipseg-prompt-mask)
 - [RemBG](#rembg)
 - [Semantic Similarity](#semantic-similarity)
+- [SD Image Roll](#sd-image-roll)
+- [SD Shapes to Points](#sd-shapes-to-points)
  
  ## Nodes description:
  ### BLIP image captioning
