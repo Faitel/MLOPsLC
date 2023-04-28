@@ -1,5 +1,6 @@
 # MLOPsLC - MLOPs Limited Commercial (Indie) Extensions for Houdini
  Experimental nodes for MLOPs in Houdini under a Limited Commercial (Indie) license
+### Disclaimer: This repository is a user initiative and is not directly related to the [MLOPs repository](https://github.com/Bismuth-Consultancy-BV/MLOPs) or its authors.
  
  ## How to install:
  To install the node extension for the first time, follow these steps:
