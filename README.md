@@ -1,7 +1,12 @@
 # MLOPsLC - MLOPs Limited Commercial (Indie) Extensions for Houdini
  Experimental nodes for MLOPs in Houdini under an Limited Commercial (Indie) license
  
- ## Nodes:
+ ## Nodes list:
+- [BLIP image captioning](#blip-image-captioning)
+- [CLIPseg Image Mask](#clipseg-image-mask)
+- [CLIPseg Prompt Mask](#clipseg-prompt-mask)
+ 
+ ## Nodes description:
  ### BLIP image captioning
 This experimental node converts an image represented as colored points into a textual description of its content. The description is stored as a point attribute called 'prompt' and is based on a machine learning model trained on image-caption pairs.
 
@@ -38,7 +43,7 @@ This node extracts and replaces background of image with solid color.
 
 - !!! Copy MLOPs_rembg.json to Packages folder in Houdini's preferences directory
 - !!! You have to install dependecies: Tab - MLOPs - RemBG - MLOPS RemBG Solver (Install)
-![RemBG](/help/images/screenshot_RemBG_install.png)
+![RemBG Install](/help/images/screenshot_RemBG_install.png)
 ![RemBG](/help/images/screenshot_RemBG.png)
 
 ### Semantic Similarity
@@ -49,5 +54,5 @@ This node takes two textual prompts as input and returns a Similarity attribute 
 - More models: [sentence-transformers](https://huggingface.co/models?library=sentence-transformers&pipeline_tag=sentence-similarity&sort=downloads)
 
 - !!! You have to install dependecies: Tab - MLOPs - SentenceTransformers  - MLOPS Semantic Similarity (Install)
-![RemBG](/help/images/screenshot_ST_semantic_similarity_install.png)
-![RemBG](/help/images/screenshot_ST_semantic_similarity.png)
+![Semantic Similarity Install](/help/images/screenshot_ST_semantic_similarity_install.png)
+![Semantic Similarity](/help/images/screenshot_ST_semantic_similarity.png)
