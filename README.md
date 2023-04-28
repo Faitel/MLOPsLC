@@ -71,5 +71,5 @@ This node takes two textual prompts as input and returns a Similarity attribute 
 This node shifts or offsets an input pixels along a specified axis.
 
 - Based on: [Seamless Texture Inpainting](https://colab.research.google.com/drive/14gt9Z1wqQRS8jVfzJA1K9_PAYlXUAFrR?usp=sharing#scrollTo=WU3fAHi8DIhg)
-- Method used: (Numpy Roll)[https://numpy.org/doc/stable/reference/generated/numpy.roll.html]
+- Method used: [Numpy Roll](https://numpy.org/doc/stable/reference/generated/numpy.roll.html)
 ![Semantic Similarity](/help/images/screenshot_SD_image_roll.png)
