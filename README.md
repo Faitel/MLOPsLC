@@ -5,6 +5,8 @@
 - [BLIP image captioning](#blip-image-captioning)
 - [CLIPseg Image Mask](#clipseg-image-mask)
 - [CLIPseg Prompt Mask](#clipseg-prompt-mask)
+- [RemBG](#rembg)
+- [Semantic Similarity](#semantic-similarity)
  
  ## Nodes description:
  ### BLIP image captioning
