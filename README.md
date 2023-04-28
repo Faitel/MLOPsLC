@@ -54,6 +54,7 @@ This node extracts and replaces background of image with solid color.
 
 - !!! Copy MLOPs_rembg.json to Packages folder in Houdini's preferences directory
 - !!! You have to install dependecies: Tab - MLOPs - RemBG - MLOPS RemBG Solver (Install)
+
 ![RemBG Install](/help/images/screenshot_RemBG_install.png)
 ![RemBG](/help/images/screenshot_RemBG.png)
 
@@ -65,6 +66,7 @@ This node takes two textual prompts as input and returns a Similarity attribute 
 - More models: [sentence-transformers](https://huggingface.co/models?library=sentence-transformers&pipeline_tag=sentence-similarity&sort=downloads)
 
 - !!! You have to install dependecies: Tab - MLOPs - SentenceTransformers  - MLOPS Semantic Similarity (Install)
+
 ![Semantic Similarity Install](/help/images/screenshot_ST_semantic_similarity_install.png)
 ![Semantic Similarity](/help/images/screenshot_ST_semantic_similarity.png)
 
@@ -73,4 +75,12 @@ This node shifts or offsets an input pixels along a specified axis.
 
 - Based on: [Seamless Texture Inpainting](https://colab.research.google.com/drive/14gt9Z1wqQRS8jVfzJA1K9_PAYlXUAFrR?usp=sharing#scrollTo=WU3fAHi8DIhg)
 - Method used: [Numpy Roll](https://numpy.org/doc/stable/reference/generated/numpy.roll.html)
+
 ![Semantic Similarity](/help/images/screenshot_SD_image_roll.png)
+
+### SD Shapes to Points
+This node generates black and white mask from different kinds of shapes with ability to blur edges.
+
+- Based on: SD Image to Points
+
+![Semantic Similarity](/help/images/screenshot_SD_shapes_to_points.png)
