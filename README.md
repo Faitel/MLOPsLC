@@ -18,6 +18,8 @@
 - [Semantic Similarity](#semantic-similarity)
 - [SD Image Roll](#sd-image-roll)
 - [SD Shapes to Points](#sd-shapes-to-points)
+- [SD COP2 Processor](#sd-cop2-processor)
+
  
  ## Nodes description:
  ### BLIP image captioning
@@ -86,3 +88,10 @@ This node generates black and white mask from different kinds of shapes with abi
 - Based on: SD Image to Points
 
 ![Semantic Similarity](/help/images/screenshot_SD_shapes_to_points.png)
+
+### SD COP2 Processor
+This node contains COP2 subnetwork for image manipulations and outputs colored points.
+
+- Based on: SD Image to Points
+
+![Semantic Similarity](/help/images/screenshot_SD_cop2_processor.png)
