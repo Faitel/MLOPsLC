@@ -20,6 +20,9 @@
 - [SD Image Tiling](#sd-image-tiling)
 - [SD Shapes to Points](#sd-shapes-to-points)
 - [SD COP2 Processor](#sd-cop2-processor)
+- [SD Points to HeightField](#sd-points-to-heightfield)
+- [SD HeightField to Points](#sd-heightfield-to-points)
+
 
  
  ## Nodes description:
@@ -104,5 +107,22 @@ This node generates black and white mask from different kinds of shapes with abi
 This node contains COP2 subnetwork for image manipulations and outputs colored points.
 
 - Based on: SD Image to Points
+- Related video: [MLOPS: Colored Points to COP2 processing RnD](https://www.youtube.com/watch?v=SPaTTOSuEeg)
 
 ![SD COP2 Processor](/help/images/screenshot_SD_cop2_processor.png)
+
+### SD Points to HeightField
+This node converts colored points channels to heightfield volumes Height and Mask.
+
+- Based on: SD Image to Points
+- Related video: [MLOPS: Colored Points to HeightField and back](https://www.youtube.com/watch?v=5dN0aB3yBpY)
+
+![SD Points to HeightField](/help/images/screenshot_points_to_heightfield.png)
+
+### SD HeightField to Points
+This node converts heightfield volumes volumes Height or Mask to colored points. It also has COP2 subnetwork inside for image post-processing.
+
+- Based on: [SD COP2 Processor](#sd-cop2-processor)
+- Related video: [MLOPS: Colored Points to HeightField and back](https://www.youtube.com/watch?v=5dN0aB3yBpY)
+
+![SD HeightField to Points](/help/images/screenshot_heightfield_to_points.png)
