@@ -17,6 +17,7 @@
 - [RemBG](#rembg)
 - [Semantic Similarity](#semantic-similarity)
 - [SD Image Roll](#sd-image-roll)
+- [SD Image Tiling](#sd-image-tiling)
 - [SD Shapes to Points](#sd-shapes-to-points)
 - [SD COP2 Processor](#sd-cop2-processor)
 
@@ -80,18 +81,28 @@ This node shifts or offsets an input pixels along a specified axis.
 - Based on: [Seamless Texture Inpainting](https://colab.research.google.com/drive/14gt9Z1wqQRS8jVfzJA1K9_PAYlXUAFrR?usp=sharing#scrollTo=WU3fAHi8DIhg)
 - Method used: [Numpy Roll](https://numpy.org/doc/stable/reference/generated/numpy.roll.html)
 
-![Semantic Similarity](/help/images/screenshot_SD_image_roll.png)
+![SD Image Roll](/help/images/screenshot_SD_image_roll.png)
+
+### SD Image Tiling
+This node repeats images along a specified axis with preserving image dimensions.
+
+- Method used: [Numpy Roll](https://numpy.org/doc/stable/reference/generated/numpy.tile.html)
+- Method used: [Skimage Resize](https://scikit-image.org/docs/stable/auto_examples/transform/plot_rescale.html)
+
+
+![SD Image Tiling](/help/images/screenshot_SD_image_tiling.png)
+
 
 ### SD Shapes to Points
 This node generates black and white mask from different kinds of shapes with ability to blur edges.
 
 - Based on: SD Image to Points
 
-![Semantic Similarity](/help/images/screenshot_SD_shapes_to_points.png)
+![SD Shapes to Points](/help/images/screenshot_SD_shapes_to_points.png)
 
 ### SD COP2 Processor
 This node contains COP2 subnetwork for image manipulations and outputs colored points.
 
 - Based on: SD Image to Points
 
-![Semantic Similarity](/help/images/screenshot_SD_cop2_processor.png)
+![SD COP2 Processor](/help/images/screenshot_SD_cop2_processor.png)
