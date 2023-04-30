@@ -126,3 +126,12 @@ This node converts heightfield volumes volumes Height or Mask to colored points.
 - Related video: [MLOPS: Colored Points to HeightField and back](https://www.youtube.com/watch?v=5dN0aB3yBpY)
 
 ![SD HeightField to Points](/help/images/screenshot_heightfield_to_points.png)
+
+### SD Image Python
+This node allows processing Colored Points by representing them as a three-dimensional numpy array in the variable "img" with a shape of (w, h, c), where w and h are the width and height in pixels, and c represents the color channels r, g, b. You can use popular image processing libraries that come with MLOPs, such as skimage. You can also use other libraries, but remember that colors in the array must be represented as float variables from 0 to 1.
+
+- Based on: [SD Image tiling](#sd-image-tiling)
+- Related video: [MLOPS: SD Image Python Wrangle RnD](https://www.youtube.com/watch?v=aiQeuyt7BPc)
+- Methods to try: [Skimage General Examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
+
+![SD HeightField to Points](/help/images/screenshot_sd_image_python.png)
