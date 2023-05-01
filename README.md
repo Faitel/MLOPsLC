@@ -23,9 +23,8 @@
 - [SD Points to HeightField](#sd-points-to-heightfield)
 - [SD HeightField to Points](#sd-heightfield-to-points)
 - [SD Image Python](#sd-image-python)
+- [SD MatPlotLib Python](#sd-matplotlib-python)
 
-
- 
  ## Nodes description:
  ### BLIP image captioning
 This experimental node converts an image represented as colored points into a textual description of its content. The description is stored as a point attribute called 'prompt' and is based on a machine learning model trained on image-caption pairs.
@@ -136,3 +135,15 @@ This node allows processing Colored Points by representing them as a three-dimen
 - Methods to try: [Skimage General Examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
 
 ![SD HeightField to Points](/help/images/screenshot_sd_image_python.png)
+
+### SD MatPlotLib Python
+This node generates an image from a Matplotlib figure. You can customize the figure parameters and use gridspec if desired to layout plots.
+
+- Based on: [SD Image Python](#sd-image-python)
+- MatPlotLib documentation: [MatPlotLib ](https://matplotlib.org/)
+- Useful article: [Plot organization](https://towardsdatascience.com/plot-organization-in-matplotlib-your-one-stop-guide-if-you-are-reading-this-it-is-probably-f79c2dcbc801)
+- Related video: [SD MatPlotLib Python](https://www.youtube.com/watch?v=A4w7exAqwdk)
+
+- !!! You have to install dependecies: Tab - MLOPs - Stable Diffusion  - MLOPS SD MatPlotLib Python (Install)
+![SD MatPlotLib Python (Install)](/help/images/screenshot_sd_matplotlib_python_install.png)
+![SD MatPlotLib Python ](/help/images/screenshot_sd_matplotlib_python.png)
