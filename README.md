@@ -7,7 +7,7 @@
 1. Clone this repository and make note of the directory you have cloned it to.
 2. Copy the `MLOPsLC.json` and `MLOPs_rembg.json` files found in the repository root, and paste them in the $HOUDINI_USER_PREF_DIR/packages/ folder.
 3. Edit the `MLOPs.json` file you just pasted, and modify the `$MLOPSLC` path found inside. Set the path to where you cloned the repository to in step one.
-4. Launch Houdini and open the tab menu. Type Install to find all nodes with (Install) postfix. Click on each of those nodes to install dependencies. 
+4. Launch Houdini and open the tab menu. Click on Pip install shelft tool and put the string in Dependencies field: rembg[gpu], sentence-transformers, matplotlib  Click install. 
 5. Restart Houdini once complete.
  
  ## Nodes list:
