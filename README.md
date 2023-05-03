@@ -61,8 +61,9 @@ This node extracts and replaces background of image with solid color.
 - Interactive page: [KenjieDec/RemBG](https://huggingface.co/spaces/KenjieDec/RemBG)
 
 - !!! Copy MLOPs_rembg.json to Packages folder in Houdini's preferences directory
-- !!! You have to install dependecies: Open MLOPs shelf tab - Pip install - Dependencies: rembg, rembg[gpu] - install
+- !!! You have to install dependecies: Tab - MLOPs - RemBG - MLOPS RemBG Solver (Install)
 
+![RemBG Install](/help/images/screenshot_RemBG_install.png)
 ![RemBG](/help/images/screenshot_RemBG.png)
 
 ### Semantic Similarity
@@ -72,8 +73,9 @@ This node takes two textual prompts as input and returns a Similarity attribute 
 - Model documentation: [SentenceTransformers ](https://www.sbert.net/)
 - More models: [sentence-transformers](https://huggingface.co/models?library=sentence-transformers&pipeline_tag=sentence-similarity&sort=downloads)
 
-- !!! You have to install dependecies: Open MLOPs shelf tab - Pip install - Dependencies: sentence-transformers - install
+- !!! You have to install dependecies: Tab - MLOPs - SentenceTransformers  - MLOPS Semantic Similarity (Install)
 
+![Semantic Similarity Install](/help/images/screenshot_ST_semantic_similarity_install.png)
 ![Semantic Similarity](/help/images/screenshot_ST_semantic_similarity.png)
 
 ### SD Image Roll
@@ -142,5 +144,6 @@ This node generates an image from a Matplotlib figure. You can customize the fig
 - Useful article: [Plot organization](https://towardsdatascience.com/plot-organization-in-matplotlib-your-one-stop-guide-if-you-are-reading-this-it-is-probably-f79c2dcbc801)
 - Related video: [SD MatPlotLib Python](https://www.youtube.com/watch?v=A4w7exAqwdk)
 
-- !!! You have to install dependecies: Open MLOPs shelf tab - Pip install - Dependencies: matplotlib
+- !!! You have to install dependecies: Tab - MLOPs - Stable Diffusion  - MLOPS SD MatPlotLib Python (Install)
+![SD MatPlotLib Python (Install)](/help/images/screenshot_sd_matplotlib_python_install.png)
 ![SD MatPlotLib Python ](/help/images/screenshot_sd_matplotlib_python.png)
